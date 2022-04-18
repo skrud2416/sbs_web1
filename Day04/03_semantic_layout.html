@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시맨틱 요소 - 레이아웃</title>
+
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <!-- font-family: 'Do Hyeon', sans-serif; -->
+
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+            body {
+                font-family: 'Do Hyeon', sans-serif;
+            }
+
+            header {
+                background-color: lightgray; 
+                height: 100px; 
+                line-height: 100px;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            nav {
+                float: left;
+                width: 20%;
+                height: 300px;
+                background-color: #399;
+                padding: 20px;
+            }
+
+            article {
+                float: left;
+                padding: 20px;
+                width: 80%;
+                height: 300px;
+                background-color: #f1f1f1;
+            }
+
+            footer {
+                background-color: yellow;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+            }
+
+            /* 반응형 적용 - 가로 사이즈 600px 이하 */
+            @media screen and (max-width: 600px) {
+                nav,
+                article {
+                    width: 100px;
+                    height: auto;
+                }
+            }
+
+
+    </style>
+
+</head>
+
+    <h1>sementic 태그를 이용한 레이아웃</h1>
+    <header>
+        <h2>HEADER</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">meul001</a></li>
+                <li><a href="#">meul002</a></li>
+                <li><a href="#">meul003</a></li>
+                <li><a href="#">meul004</a></li>
+            </ul>
+        </nav>
+
+     <article>
+        <h1>SBS 아카데미</h1>
+        <p>
+            이름과, 위에 가난한 시인의 있습니다. 나는 쉬이 릴케 프랑시스 둘 부끄러운 하나 있습니다. 책상을 나는 별 새겨지는 헤일 무엇인지 봅니다. 나는 어머님, 밤을 다 시와 비둘기, 지나가는 마리아 까닭입니다. 소녀들의 소학교 않은 아이들의 가슴속에 별 별 때 봅니다. 가을로 둘 많은 버리었습니다. 마디씩 이름과, 이름자 별 내 하나 말 거외다.
+        </p>
+
+        <p>
+            당신은 애기 까닭이요, 무덤 위에 겨울이 묻힌 거외다. 노새, 하나에 멀리 지나고 이름과, 내린 옥 했던 밤이 계십니다. 내 옥 그리고 하나에 가난한 북간도에 시인의 봅니다. 아직 까닭이요, 노새, 아스라히 나의 풀이 비둘기, 계집애들의 나는 있습니다. 동경과 북간도에 아이들의 노루, 가득 있습니다.
+        </p>
+
+     </article>
+
+    </section>
+
+    <footer>
+        <h2>FOOTER</h2>
+    </footer>
+
+<body>
+    
+</body>
+</html>
